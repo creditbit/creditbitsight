@@ -1,0 +1,76 @@
+{
+  "name": "creditbitsight-creditbitcore",
+  "description": "An open-source frontend for the creditbitsight API. The creditbitsight API provides you with a convenient, powerful and simple way to query and broadcast data on the creditbit network and build your own services with it.",
+  "version": "0.2.5",
+  "author": {
+    "name": "creditbit-devteam",
+    "email": "support@creditbit.org"
+  },
+  "repository": "https://github.com/creditbit/creditbitsight.git",
+  "contributors": [
+    {
+      "name": "Mike Croteau",
+      "email": "mike@reddcoin.com"
+    },
+    {
+      "name": "Andrew Groff",
+      "email": "andrew@reddcoin.com"
+    },
+    {
+      "name": "Ryan X Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Mario Colque",
+      "email": "colquemario@gmail.com"
+    },
+    {
+      "name": "Gustavo Cortez",
+      "email": "cmgustavo83@gmail.com"
+    },
+    {
+      "name": "Juan Ignacio Sosa Lopez",
+      "email": "bechilandia@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/creditbit/creditbitsight/issues"
+  },
+  "homepage": "https://github.com/creditbit/creditbitsight",
+  "license": "MIT",
+  "keywords": [
+    "creditbitsight",
+    "blockchain",
+    "blockexplorer",
+    "creditbit",
+    "creditbitcore",
+    "front-end"
+  ],
+  "scripts": {
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/creditbitsight-api"
+  },
+    "dependencies": {
+    "insight-bitcore-api": "git://github.com/creditbit/creditbitsight-api.git"
+  },
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-macreload": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-markdown": "~0.5.0",
+    "grunt-angular-gettext": "^0.2.15"
+  }
+}
